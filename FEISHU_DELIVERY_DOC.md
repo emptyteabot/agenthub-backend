@@ -24,7 +24,7 @@ https://github.com/emptyteabot/agenthub-backend
 
 Demo 视频链接：
 
-待填：请粘贴飞书云文档、飞书妙记、网盘或其他可公开访问的视频链接
+https://github.com/emptyteabot/agenthub-backend/releases/download/demo-final/AgentHub_Demo_Final.mp4
 
 ## 2. 一句话介绍
 
