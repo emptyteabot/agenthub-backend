@@ -39,6 +39,12 @@ https://github.com/emptyteabot/agenthub-backend
 https://xxx.feishu.cn/docx/xxxxxxxx
 ```
 
+Demo 视频链接已准备：
+
+```text
+https://github.com/emptyteabot/agenthub-backend/releases/download/demo-final/AgentHub_Demo_Final.mp4
+```
+
 ## 其他补充说明
 
 建议直接粘贴以下内容：
