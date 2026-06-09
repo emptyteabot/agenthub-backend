@@ -9,3 +9,9 @@ workspaces/
 *.pyc
 *.log
 .uvicorn.pid
+AgentHub_Demo*.mp4
+AgentHub_Demo*.webm
+AgentHub_Demo_Narration.*
+AgentHub_Demo_Subtitles.srt
+demo_recording/
+record_demo_video.js
