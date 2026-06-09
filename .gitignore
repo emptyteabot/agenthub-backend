@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+agenthub.db
+agenthub.db-*
+workspaces/
+*.pyc
+*.log
+.uvicorn.pid
