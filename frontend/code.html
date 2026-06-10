@@ -324,6 +324,22 @@
             `;
         }
 
+        function stepTypeLabel(type) {
+            const labels = {
+                thought: 'thought',
+                flow: 'flow',
+                code_diff: 'code_diff',
+                review: 'review',
+                run: 'run',
+                stdout: 'stdout',
+                stderr: 'stderr',
+                'run.requires_human': 'requires_human',
+                done: 'done',
+                text: 'text'
+            };
+            return labels[type] || type || 'text';
+        }
+
         function createStepMessage(step) {
             const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
             const type = step.type || 'text';
@@ -382,6 +398,7 @@
                     <div class="flex items-center gap-2 mb-sm">
                         <div class="w-6 h-6 rounded bg-surface-variant border border-outline-variant flex items-center justify-center text-outline"><span class="material-symbols-outlined text-[14px]">smart_toy</span></div>
                         <span class="font-bold text-on-surface">${escapeHtml(agent)}</span>
+                        <span class="px-2 py-0.5 rounded border border-outline-variant bg-surface-container text-tech-blue font-mono-code text-[10px]">${escapeHtml(stepTypeLabel(type))}</span>
                         <span class="text-outline-variant text-[11px]">${time}</span>
                     </div>
                     <div class="pl-8">${content}</div>
